@@ -33,9 +33,6 @@ public class UserMapperTest {
     @Test
     public void testFindUserById() throws Exception {
 
-        //创建UserMapper对象，这一步是mybatis自动生成mapper代理对象
-        UserMapper userMapper = (UserMapper) applicationContext.getBean("userMapper");
-        User user = userMapper.findUserById(1);
-        System.out.println(user.getUsername());
+
     }
 }
